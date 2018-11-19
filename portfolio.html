@@ -2,108 +2,168 @@
 <html lang="en-us">
 
 <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="assets/css/reset.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
-  <!-- <script src="main.js"></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <!-- <script src="main.js"></script> -->
 </head>
 
 <body>
 
 
-    <!--Header of the page.  This stays the same.-->
-    <div class="row">
-      <div class = "col-md-12">
-  
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <a class="navbar-brand" href="#">Kevin O'Brien</a>
-          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" -->
-          <!-- aria-expanded="false" aria-label="Toggle navigation"> -->
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-  
-  
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-              </ul>
-              <!-- <span class="navbar-text"> -->
-              <!-- </span> -->
-          </div>
-      </nav>
-</div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Kevin O'Brien</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <!-- <span class="navbar-text"> -->
+            <!-- </span> -->
+        </div>
+    </nav>
+    <!-- </div> -->
+
 
     <!--Main container-->
     <div class="content">
 
         <div class="pagetitle">Portfolio</div>
         <div id="topgraylinecontainer">
-            <div class="grayline"></div> 
-        </div>   
-        <br>   
+            <div class="grayline"></div>
+        </div>
+        <br>
+        <div class="container">
 
-  
-    <!--Image 1-->
-    <div class="pic-container" id="word">
-        <div class="piclabel">
-            <img src="assets/images/stadium.jpg" alt="football word challenge" width="150" height="150"/>
-            <Span>Word Challenge</Span>
-        </div>
-    </div>
+            <div class="row">
+                <div class="col-md-4">
 
-    <!--Image 2-->
-    <div class="pic-container" id="starwars">
-        <div class="piclabel">
-            <img src="assets/images/background2.jpg" alt="star wars" width="150" height="150"/>
-            <Span>Star Wars Battle</Span>
-        </div>
-    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" class="rounded" src="assets/images/stadium.jpg" alt="football word challenge">
+                        <div class="card-body">
+                            <h5 class="card-title">Football Word Challenge</h5>
+                            <p class="card-text">Guess the word by selecting letters. Correct guesses = 1st down! If
+                                you don't guess the word before you run out of downs, it's a turnover!</p>
+                            <a href="https://kobbootcamp.github.io/Word-Guess-Game/"" class=" btn btn-light">View
+                                Website</a>
+                            <a href="https://github.com/kobbootcamp/Word-Guess-Game" class="btn btn-light">Github Pages</a>
+                        </div>
+                    </div>
+                </div>
 
-    <!--Image 3-->
-    <div class="pic-container" id="trivia">
-        <div class="piclabel">
-            <img src="assets/images/techBackground3.jpg" alt="trivia" width="150" height="150"/>
-            <Span>Technology Trivia</Span>
-        </div>
-    </div>
-    
-    <!--Image 4-->
-    <div class="pic-container" id="farm">
-        <div class="piclabel">
-            <img src="assets/images/farm.JPG" alt="gifTastic" width="150" height="150"/>
-            <Span>GifTastic</Span>
-        </div>
-    </div>
 
-    <!--Image 5-->
-    <div class="pic-container" id="train">
-        <div class="piclabel">
-            <img src="assets/images/bullet.jpg" alt="Bullet Train" width="150" height="150"/>
-            <Span>Train Scheduler</Span>
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" class="rounded" src="assets/images/background2.jpg" alt="star wars">
+                        <div class="card-body">
+                            <h5 class="card-title">Star Wars Battle</h5>
+                            <p class="card-text">Choose a character, and then choose an enemy to attack.
+                                Click the Attack! to cause damage. Defeat your enemy by depleating his health points
+                                before yours are depleated. Defeat all enemies to win!</p>
+                            <a href="https://kobbootcamp.github.io/unit-4-game/" class="btn btn-light">View Website</a>
+                            <a href="https://github.com/kobbootcamp/unit-4-game" class="btn btn-light">Github Pages</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" class="rounded" src="assets/images/techBackground3.jpg" alt="trivia">
+                        <div class="card-body">
+                            <h5 class="card-title">Technology Trivia Game</h5>
+                            <p class="card-text">Show off your technology knowledge by select the correct answer before
+                                time runs out. </p>
+                            <a href="https://kobbootcamp.github.io/TriviaGame/" class="btn btn-light">View Website</a>
+                            <a href="https://github.com/kobbootcamp/TriviaGame" class="btn btn-light">Github Pages</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" class="rounded" src="assets/images/farm.JPG" alt="GifTastic">
+                        <div class="card-body">
+                            <h5 class="card-title">GifTastic</h5>
+                            <p class="card-text">Click an animal and see ten gifs appear. Click on the gif to
+                                start/stop the animation. Then add a new animal, and click the new animal button.</p>
+                            <a href="https://kobbootcamp.github.io/GifTastic/" class="btn btn-light">View Website</a>
+                            <a href="https://github.com/kobbootcamp/GifTastic" class="btn btn-light">Github Pages</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" class="rounded" src="assets/images/bullet.jpg" alt="Train Scheduler"
+                            height=232px;>
+                        <div class="card-body">
+                            <h5 class="card-title">Train Scheduler</h5>
+                            <p class="card-text">Add a train to the scheduler by entering a name, destination, initial
+                                start time, and frequency. The train schedule will show you the next time that train
+                                arrives, and how many minutes before it's next arrival.</p>
+                            <a href="https://kobbootcamp.github.io/TrainScheduler/" class="btn btn-light">View Website</a>
+                            <a href="https://github.com/kobbootcamp/TrainScheduler" class="btn btn-light">Github Pages</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+                </div>
+
+
+
+
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                </p>
+                <!--Footer-->
+                <Footer>
+                    <!--Thin  line-->
+                    <div class="thinline"></div>
+                    <div class="copyright">Copyright &copy;</div>
+                </Footer>
+            </div>
         </div>
-    </div>
-<br><br><br><br><br><br><br><br><br><br><br><br>
-</p>
-    <!--Footer-->
-    <Footer>
-        <!--Thin  line-->
-        <div class="thinline"></div>
-        <div class="copyright">Copyright &copy;</div>
-    </Footer>
+        <!--Container-->
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
 </body>
+
+</html>

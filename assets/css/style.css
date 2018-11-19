@@ -18,7 +18,7 @@ body{
 .pagetitle{
     clear: both;
     overflow: auto;
-    color: #4aaaa5;
+    color: gray;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px; 
     padding: 20px;
@@ -74,10 +74,11 @@ a:hover {
 .content{
     color:#777777;
     margin: 0 auto;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color:#F9F9F9;
     width: 960px;
     border-style: solid;
-    border-color: #cccccc;
+    border-color: gray;
     border-width: 1px;
     margin-top:100px;
     margin-bottom: 100px;
@@ -105,8 +106,9 @@ a:hover {
     /* z-index: 1; */
     margin:0 auto;
     width:100%;
-    Height: 3px;
-    background-color:#cccccc;  
+    Height: 2px;
+    /* background-color:#cccccc;  */
+    background-color: orangered ;
     margin-top:5%;
     margin-bottom:5%;
 }
@@ -126,36 +128,47 @@ Footer{
     float: left;
     position: relative;
     height: 50px;
-    width:150px;
+    width:200px;
     text-align: center;
-    height: 30px;
+    /* height: 30px; */
     margin-left: 20px;
     margin-bottom: -250px;
+ 
 }
 .piclabel span{
     position: absolute;
-    top: 98px;
+    top: 120px;
     Left: 0px;
-    background-color: #4aaaa5;
-    Color: white;
+    background-color: lightgray;
+    Color: darkslategray;
     text-align: center;
-    height: 20px;
-    width: 130px;
+    height: 30px;
+    width: 200px;
     padding: 10px;
+
 
 }
 img{
     float:left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
 
 }
 
 .pic-container{
     float:left;
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     padding: 20px;
+    margin:5%;
+    margin-top:2%;
 
 }
+
+
+
+
 
 input[type=text], select {
 
@@ -189,15 +202,87 @@ input[type=submit], select {
 }
 
 
+
 #jumboContainer {
-    margin: auto;
-    padding-top: 10%;
+    /* margin: auto; */
+    padding: 10px 20px 10px 20px;
+    /* padding-bottom: 0px; */
     background-color:#F9F9F9;
-    border-color: orangered;
+    /* border-color: orangered; */
+    border-color: gray;
     border-width: 1px;
     border-style:solid;
+    margin-top:5%;
+    margin-bottom: 10%;
 }
 
 #aboutMe {
     /* color:orangered; */
+    margin-bottom: 0;
+}
+
+.labelBackground span{
+    background-color: #4aaaa5;  
+
+}
+
+.card {
+    margin:5%;
+    border-color: gray;
+    border-width: 1px;
+    border-style:solid;
+}
+
+.card-text {
+
+    height: 175px;
+}
+
+.btn {
+
+    border-style: solid;
+    border-color: orangered;
+    border-color:gray;
+    border-width: 1px;
+}
+
+#contactme {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+#frontemail {
+    text-align: left;
+    float:left;
+}
+
+#frontphone{
+text-align:right;
+
+}
+
+#contactme {
+    padding:2%;
+}
+
+#backemail {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+} 
+#backphone {
+
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px; 
+}
+
+#contactBox{
+
+    padding-top: 3%;
+}
+
+#linkedIn {
+    margin: 10px;
 }
