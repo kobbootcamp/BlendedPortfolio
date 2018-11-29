@@ -1,7 +1,7 @@
 body{
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
-    background-position: center top;
+    background-position: center;
     background-color: black;
     background-size: cover;
 }
@@ -235,9 +235,15 @@ input[type=submit], select {
 
 .card-text {
 
-    height: 175px;
+    height: 200px;
+    
 }
 
+.card-title {
+
+    height: 48px;
+    text-align: center;
+}
 .btn {
 
     border-style: solid;
