@@ -1,8 +1,8 @@
 body{
     background-image: url("../images/background.jpg");
     background-repeat: repeat-y;
-    background-position: center;
-    background-color: #343A40;
+    background-position:right top;
+    background-color: #E5E5E5;
     background-size: round;
 }
 .namebox{
@@ -92,8 +92,9 @@ a:hover {
 .thinline{
     float: left;
     width: 100%;
-    Height: 3px;
+    Height: 5px;
     background-color:orangered;
+    /* background-color: #CFDAE2; */
 }
 
 #topgraylinecontainer{
@@ -122,9 +123,11 @@ Footer{
     text-align: center;
     margin-top: 40Px;
     background-color:#797979;
+    /* background-color: #CFDAE2; */
     Width: 100%;
     Height: 40px;
     color: white;
+    /* color:CFDAE2; */
 }
 
 .piclabel{
@@ -156,6 +159,7 @@ img{
     border-style: solid;
     border-width: 1px;
     border-color: gray;
+    /* border-color: #CFDAE2; */
 
 }
 
@@ -168,8 +172,6 @@ img{
     margin-top:2%;
 
 }
-
-
 
 
 
