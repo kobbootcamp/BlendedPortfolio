@@ -316,3 +316,11 @@ font-size: 27px;
 #technology {
     text-align: center;
 }
+
+.card-title {
+    color: darkslategray;
+}
+
+.tech {
+    color: darkslategray;
+}
